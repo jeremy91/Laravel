@@ -24,6 +24,8 @@ Route::get('/', function () {
 //Here we call the hello.php file in app/http/controller/hello.php
 Route::get('hello', 'Hello@index');
 
+//Here we call hello.blade.php
+Route::get('/hello/{name}', 'Hello@show');
 
 /*
 |--------------------------------------------------------------------------

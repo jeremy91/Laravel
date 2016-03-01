@@ -47,9 +47,10 @@ class hello extends Controller
      * @param  int  $id
      * @return Response
      */
-    public function show($id)
+    public function show($name)
     {
-        //
+        //Here we return the hello.blade.php view
+        return view('hello',array('name' => $name));
     }
 
     /**
