@@ -15,6 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+//Here when we go to localhost/laravel/larashop/public/hello it returns hello world
+/*Route::get('/hello',function(){
+    return 'Hello World!';
+});*/
+
+//Here we call the hello.php file in app/http/controller/hello.php
+Route::get('hello', 'Hello@index');
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
