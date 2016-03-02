@@ -35,3 +35,7 @@ SEO depends on:
 3) social media stats
 
 4) keywords = in headings etc
+
+
+{{$var}} used if you want to display the variable
+$var if you just want to use the variable
