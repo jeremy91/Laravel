@@ -37,5 +37,5 @@ SEO depends on:
 4) keywords = in headings etc
 
 
-{{$var}} used if you want to display the variable
+{{$var}} used if you want to display the variable, also used for if you want to call a function in php
 $var if you just want to use the variable
