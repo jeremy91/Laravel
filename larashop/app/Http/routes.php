@@ -27,6 +27,22 @@ Route::get('hello', 'Hello@index');
 //Here we call hello.blade.php
 Route::get('/hello/{name}', 'Hello@show');
 
+
+//Tutorial to create SEO freindly routes
+Route::get('/','Front@index');
+Route::get('/products','Front@products');
+Route::get('/products/details/{id}','Front@product_details');
+Route::get('/products/categories','Front@product_categories');
+Route::get('/products/brands','Front@product_brands');
+Route::get('/blog','Front@blog');
+Route::get('/blog/post/{id}','Front@blog_post');
+Route::get('/contact-us','Front@contact_us');
+Route::get('/login','Front@login');
+Route::get('/logout','Front@logout');
+Route::get('/cart','Front@cart');
+Route::get('/checkout','Front@checkout');
+Route::get('/search/{query}','Front@search');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
